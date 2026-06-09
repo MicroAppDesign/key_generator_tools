@@ -1,0 +1,14 @@
+{
+  "name": "key-generator-tools",
+  "private": true,
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./styles/tailwind.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  },
+  "dependencies": {
+    "qrious": "^4.0.2"
+  }
+}
